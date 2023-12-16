@@ -1,6 +1,6 @@
   // db.js
   const mysql = require('mysql2/promise');
-  require('dotenv').config({ path: '../.env' });
+  require('dotenv').config({ path: './.env' });
 
   const connection = mysql.createPool({
     host: process.env.RDS_HOST,
